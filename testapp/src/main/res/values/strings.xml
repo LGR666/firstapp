@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">testApp</string>
+    <string name="helloWorld">helloWorld</string>
+    <string name="textView">textView</string>
+    <string name="message">message</string>
+    <string name="img">img</string>
+
+</resources>

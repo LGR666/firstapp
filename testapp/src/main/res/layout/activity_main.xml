@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.qh.testapp.MainActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/myed"
+        android:layout_width="188dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="id为myed"/>
+    <EditText
+        android:id="@+id/myName"
+        android:layout_width="188dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="id为myName"/>
+    <EditText
+        android:id="@+id/myNam1"
+        android:layout_width="188dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="id为myName1"/>
+    <Button
+        android:id="@+id/mybut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示输入信息"/>
+
+
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入的信息是:"/>
+
+
+
+
+</LinearLayout>
